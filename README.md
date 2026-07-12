@@ -25,7 +25,7 @@ The name stays first. `time_name` is still available if you prefer the opposite 
 Telegram API credentials are available from <https://my.telegram.org/apps>.
 
 ```bash
-wget https://raw.githubusercontent.com/joshcheng/mini-telegram-name-timing-sync/main/install.sh
+wget https://raw.githubusercontent.com/joshcheng820222/mini-telegram-name-timing-sync/main/install.sh
 chmod +x install.sh
 sudo ./install.sh
 sudo nano /etc/telegram-name-timing-sync/config.json

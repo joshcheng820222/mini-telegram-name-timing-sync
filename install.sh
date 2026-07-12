@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-REPO_URL="${REPO_URL:-https://github.com/joshcheng/mini-telegram-name-timing-sync.git}"
+REPO_URL="${REPO_URL:-https://github.com/joshcheng820222/mini-telegram-name-timing-sync.git}"
 REF="${REF:-main}"
 PREFIX="${PREFIX:-/opt/telegram-name-timing-sync}"
 CONFIG_DIR="${CONFIG_DIR:-/etc/telegram-name-timing-sync}"
