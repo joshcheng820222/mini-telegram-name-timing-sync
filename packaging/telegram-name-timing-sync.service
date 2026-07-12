@@ -1,0 +1,19 @@
+[Unit]
+Description=Mini Telegram Name Timing Sync
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/opt/telegram-name-timing-sync/venv/bin/telegram-name-timing-sync --config /etc/telegram-name-timing-sync/config.json
+Restart=on-failure
+RestartSec=15
+User=root
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/etc/telegram-name-timing-sync
+
+[Install]
+WantedBy=multi-user.target

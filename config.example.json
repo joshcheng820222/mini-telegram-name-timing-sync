@@ -1,0 +1,11 @@
+{
+  "api_id": 123456,
+  "api_hash": "replace-with-your-api-hash",
+  "display_name": "Your Name",
+  "timezone": "Asia/Shanghai",
+  "time_format": "12h",
+  "order": "name_time",
+  "font": "math_script",
+  "emoji": "",
+  "update_interval": 60
+}

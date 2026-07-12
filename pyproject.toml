@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mini-telegram-name-timing-sync"
+version = "1.0.0"
+description = "Keep a Telegram display name synchronized with the current time."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "joshcheng"}]
+dependencies = ["Telethon>=1.36,<2", "pytz>=2024.1"]
+
+[project.scripts]
+telegram-name-timing-sync = "mini_telegram_name_timing_sync.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
